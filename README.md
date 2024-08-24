@@ -1,7 +1,7 @@
 # Ollama RAG LLM with CustomTkinter UI
 Running directly:
 - Open up the project file and simply run app.py
-- 
+  
 Terminal commands:
 - when adding a new document to "data", run the populate_database.py script; in terminal, "python populate_database.py"
 - to run ollama server, "ollama serve" - this is required as Ollama runs a local server on http://127.0.0.1:11434/ that enables use of the LLMs
