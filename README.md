@@ -1,6 +1,13 @@
 # Ollama RAG LLM with CustomTkinter UI
-Running directly:
+Running directly from project file:
 - Open up the project file and simply run app.py
+- Click on the "run ollama" to run the ollama server
+- Add your pdf under "Add document"
+- Click the "Update ChromaDB" button (which generates embeddings from your PDFs)
+- - This might take a while. If your PDF is large, it might not finish fully, but it can finish partially. See your python terminal for updates.
+- After you get the notification (if it was fully completed or not), you can type in your prompt.
+- - This too might take a while. See your python terminal for updates.
+- View the responses in the response area.
   
 Terminal commands:
 - when adding a new document to "data", run the populate_database.py script; in terminal, "python populate_database.py"
